@@ -5,7 +5,7 @@ public class MainMultiton
     public static void main(String[] args) 
    {
         //Prima istanza
-        Pagamenti p1=Pagamenti.getIstance(0);
+        PagamentiMultiton p1=PagamentiMultiton.getIstance(0);
         
         try
         {
@@ -25,7 +25,7 @@ public class MainMultiton
 
 
         //Seconda istanza   
-        Pagamenti p2=Pagamenti.getIstance(1);
+        PagamentiMultiton p2=PagamentiMultiton.getIstance(1);
 
         try
         {
