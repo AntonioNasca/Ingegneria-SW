@@ -5,7 +5,7 @@ public class MainSingleTon
     public static void main(String[] args) 
    {
         //Istanza 1
-        Pagamenti p1=Pagamenti.getIstance();
+        PagamentiSingleTon p1=PagamentiSingleTon.getIstance();
         
         try
         {
@@ -23,7 +23,7 @@ public class MainSingleTon
 
            
         //Istanza 2
-        Pagamenti p2=Pagamenti.getIstance();
+        PagamentiSingleTon p2=PagamentiSingleTon.getIstance();
 
         try
         {
